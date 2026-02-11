@@ -6,7 +6,7 @@
 /*   By: mfaure <mfaure@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/12 19:04:00 by mfaure            #+#    #+#             */
-/*   Updated: 2026/02/02 13:31:06 by mfaure           ###   ########.fr       */
+/*   Updated: 2026/02/11 21:12:44 by mfaure           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ typedef struct s_philo
 	int		time_to_eat;
 	int		time_to_sleep;
 	int		eat_nbr;
+	int		eat_count;
 	int		*philo_array;
 	pthread_mutex_t *mutex;
 	pthread_t *thread;
